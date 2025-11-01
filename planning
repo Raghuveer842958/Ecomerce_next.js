@@ -5,3 +5,44 @@
 
 
 
+User
+  - name
+  - email
+  - password
+  - address
+  - phone
+  - role
+  - isVerified
+  - profilePicture
+
+Product
+  - name
+  - category
+  - price
+  - descriptions
+  - images
+  - stock quantity
+  - status (active, discontinued)
+
+Order
+  - productId 
+  - userId
+  - paymentId
+  - status
+  - amount
+  - order date
+
+Payment
+  - orderId
+  - userId
+  - status
+  - amount
+  - payment date/time
+
+WishList
+  - userId
+  - productId
+
+Cart
+  - userId
+  - productId
