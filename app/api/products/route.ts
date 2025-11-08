@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
     await dbConnect();
     const data = await req.json();
 
-    console.log("data is :", data);
+    // console.log("data is :", data);
 
     // Add input validation here (or use a library like Zod/Joi)
     if (!data.name || !data.price) {
